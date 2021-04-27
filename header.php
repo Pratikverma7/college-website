@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -19,7 +29,7 @@
        <a href="http://www.du.ac.in/" <button type="submit" class="btn btn-primary" style="padding:10px; 
   background-color: #427dad; border-radius:5px; color:white;pointer:cursor">Go To DU's Website</button></a>
 </header>
-    <header class="header">
+    <header class="header fixed-top">
       
       <div class="menu-btn">
         <div class="menu-btn__lines"></div>
@@ -44,22 +54,18 @@
               <div class="col">
                 <section>
                   <h2> </h2>
-                  <a href="#" class="img-wrapper"
-                    ><span class="img"
-                      ><img
-                        src="logo.png"
-                        alt="Random Image" /></span
-                  ></a>
-                   
+                  <a href="#" class="img-wrapper"> 
+                    <span class="img"><img src="logo.png" alt="Random Image" /></span>
+                  </a>
                 </section>
               </div>
               <div class="col">
                 <section>
                   <h2> Courses at CIC</h2>
                   <ul class="mega-links">
-                    <li><a href="#">B.Tech (IT & Mathematical Innovation)</a></li>
-                    <li><a href="#">B.A Honours (Humanities & Social Science)</a></li>
-                    <li><a href="#">M.Sc @Meta University</a></li>
+                    <li><a href="b.tech.php">B.Tech (IT & Mathematical Innovation)</a></li>
+                    <li><a href="B.A.php">B.A Honours (Humanities & Social Science)</a></li>
+                    <li><a href="msc.php">M.Sc @Meta University</a></li>
                     <li><a href="#">P.hd (Doctrate of Philioshy)</a></li> 
                   </ul>
                 </section>
