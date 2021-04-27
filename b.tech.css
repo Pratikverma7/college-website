@@ -1,0 +1,29 @@
+body
+{
+  background-image: url(img/13.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title
+{
+  background-image: url(img/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading
+{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.concept img
+{
+  margin-top: 60px;
+  border: 6px solid #652B7C;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+
+

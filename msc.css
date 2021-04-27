@@ -1,0 +1,26 @@
+body
+{
+  background-image: url(img/13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head 
+{
+ background-image: url(img/22.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.head h3 
+{
+	margin-bottom: 50px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.method
+{
+   background-image: url(img/23.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
