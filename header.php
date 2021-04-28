@@ -74,10 +74,10 @@
                 <section>
                   <h2>Revised Syllabus</h2>
                   <ul class="mega-links">
-                    <li><a href="#">B.Tech</a></li>
-                    <li><a href="#">B.A Honours</a></li>
-                    <li><a href="#">M.Sc</a></li>
-                    <li><a href="#">P.hd</a></li> 
+                    <li><a href="btechrevised.php">B.Tech</a></li>
+                    <li><a href="BAhonsrevised.php">B.A Honours</a></li>
+                    <li><a href="Mscrevised.php">M.Sc</a></li>
+                    <li><a href="phdrevised.php">P.hd</a></li> 
                   </ul>
                 </section>
               </div>
