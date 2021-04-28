@@ -9,7 +9,7 @@ include("adminheader.php");
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">B.tech Revised Sullybus</h1>
+            <h1 class="m-0">B.A. Honours (Humanities & Social Sciences) Revised Sullybus</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -40,7 +40,7 @@ include("adminheader.php");
                      </button>
                   </div>
                 <div class="modal-body">
-                   <form action="btechrevisedinsert.php" method="POST" enctype="multipart/form-data">
+                   <form action="bainsert.php" method="POST" enctype="multipart/form-data">
                    	<div>
                    		<label>Paper Name :</label>
                    		<input type="text" name="papername" class="form-control" required="">
@@ -93,7 +93,7 @@ include("adminheader.php");
                    <tbody>
                       <?php
                       include('connection.php');
-                      $query = "SELECT * FROM btechrevised";
+                      $query = "SELECT * FROM barevised";
                       $result = mysqli_query($db,$query);
                       while ($data= mysqli_fetch_array($result))
                       {
